@@ -65,7 +65,7 @@
              role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
           <ul class="dropdown-menu dropdown-menu-dark">
             <li>
-              <a class="dropdown-item d-flex gap-2 align-items-center" action="logout">
+              <a href="logout" class="dropdown-item d-flex gap-2 align-items-center" action="logout">
                 <i class="fa-solid fa-right-from-bracket"></i> Sign Out
               </a>
             </li>

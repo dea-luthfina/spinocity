@@ -22,12 +22,16 @@
     </head>
     
     <body class="d-flex flex-column h-100">
-
+        <jsp:include page='layouts/navbar.jsp'></jsp:include>
         <!-- Begin page content -->
         <main class="flex-shrink-0">
             <div class="container">
                 <h1 class="mt-5">Register</h1>
                 <p class="lead">To continue you must create an account first</p>
+                <label class="form-label">
+                    <a href="login">Already have an acoount? Login here!</a>
+                </label>
+                
                 <div class="row pt-5">
                     <div class="col-12">
                         <form method="POST" action="register">
@@ -41,7 +45,7 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Contact</label>
-                                <input type="text" class="form-control" placeholder="Enter your phone number" name="contact" required>
+                                <input type="text" maxlength="12" class="form-control" placeholder="Enter your phone number" name="contact" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Username</label>
@@ -49,12 +53,13 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Password</label>
-                                <input type="password"  class="form-control" placeholder="Enter your password" name="password" required>
+                                <input type="password" minlength="8" class="form-control" placeholder="Enter your password" name="password" required>
                             </div>
                             <div class="mb-3">
                                 <button type="submit" class="btn btn-primary btn-small btn-rounded">Submit</button>
                             </div>
                         </form>
+                        </div>
                     </div>
                 </div>
             </div>

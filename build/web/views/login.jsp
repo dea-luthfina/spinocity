@@ -20,7 +20,7 @@
     </head>
     
     <body class="d-flex flex-column h-100">
-
+            <jsp:include page='layouts/navbar.jsp'></jsp:include>
             <!-- Begin page content -->
             <main class="flex-shrink-0">
                 <div class="container">
@@ -49,6 +49,10 @@
                                 <button type="submit" class="btn btn-primary btn-small btn-rounded">Submit</button>
                             </div>
                         </form>
+                            <div class="mb-3">
+                        <label class="form-label">
+                                    <a href="register">Don't have an account? Register here!</a>
+                        </label>
                     </div>
                 </div>
             </div>

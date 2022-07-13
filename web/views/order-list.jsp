@@ -99,6 +99,7 @@
               </table>
         </div>
               
+        <jsp:include page='layouts/footer.jsp'></jsp:include>
         <jsp:include page='layouts/scripts.jsp'></jsp:include>
     </body>
 </html>

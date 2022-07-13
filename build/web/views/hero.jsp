@@ -20,7 +20,7 @@
           <div class="container-logout">
             <div class="logout" action="logout">
               <h3>Hallo, <%= request.getSession().getAttribute("username") %>!</h3>
-              <a onclick="return confirm('Are you sure want to Sign Out ?')"><b>Sign Out</b></a>  
+              <a href="logout" onclick="return confirm('Are you sure want to Sign Out ?')"><b>Sign Out</b></a>  
             </div>
             <i class="fa-solid fa-circle-user"></i>
           </div>

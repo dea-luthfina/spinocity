@@ -1,0 +1,19 @@
+
+/* 
+    Created on : Jul 13, 2022, 3:09:18 PM
+    Author     : Miss KaNiRa
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+.web p{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    width: 100%;
+    height: 40px;
+}

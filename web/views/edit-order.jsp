@@ -111,7 +111,7 @@
             <button class="btn btn-warning" type="submit" id="btn-create">Update</button>
         </div>
         
-        <jsp:include page="layouts/scripts.jsp"></jsp:include>
-        <jsp:include page="layouts/footer.jsp"></jsp:include>
+        <jsp:include page='layouts/footer.jsp'></jsp:include>
+        <jsp:include page='layouts/scripts.jsp'></jsp:include>
     </body>
 </html>

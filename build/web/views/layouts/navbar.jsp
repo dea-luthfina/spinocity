@@ -28,11 +28,6 @@
             Orders
           </a>
           <ul class="dropdown-menu dropdown-menu-dark">
-            <li>
-              <a class="dropdown-item d-flex gap-2 align-items-center" href="createorder">
-                <i class="fa-solid fa-basket-shopping"></i> Add Order
-              </a>
-            </li>
             <li><hr class="dropdown-divider"></li>
             <li>
               <a class="dropdown-item d-flex gap-2 align-items-center" href="Order">

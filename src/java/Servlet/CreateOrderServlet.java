@@ -57,6 +57,10 @@ public class CreateOrderServlet extends HttpServlet {
             Boolean res = pc.create(model);
 
             if (res) {
+                Integer stock, total_order, remaining_stock;
+                String id_album;
+                id_album = request.getParameter("id_album");
+
                 response.sendRedirect("Order");
             }
 

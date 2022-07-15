@@ -46,7 +46,7 @@
                         <!-- Search bar -->
             <form>
                 <div class="input-group">
-                    <input type="text" class="form-control" name="search" placeholder="Search by Title" value="<%=search%>" />
+                    <input type="text" class="form-control" name="search" placeholder="Search by Customer Name" value="<%=search%>" />
                     <span class="input-group-append">
                     <button class="input-group-text bg-light d-block">
                             <i class="fa-solid fa-magnifying-glass"></i>

@@ -11,6 +11,10 @@
 </head>
 
 
-<footer class="web">
-    <p>© SPINOCITY 2022. All rights reserved</p>
+<footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3">
+      <b>© SPINOCITY 2022. All rights reserved</b>
+  </div>
+  <!-- Copyright -->
 </footer>

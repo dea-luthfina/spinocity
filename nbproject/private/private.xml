@@ -3,14 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Prio/Documents/NetBeansProjects/Spinocity/web/views/hero.jsp</file>
             <file>file:/C:/Users/Prio/Documents/NetBeansProjects/Spinocity/web/views/layouts/navbar.jsp</file>
             <file>file:/C:/Users/Prio/Documents/NetBeansProjects/Spinocity/web/views/order.jsp</file>
-            <file>file:/C:/Users/Prio/Documents/NetBeansProjects/Spinocity/src/java/Controller/LoginController.java</file>
-            <file>file:/C:/Users/Prio/Documents/NetBeansProjects/Spinocity/web/views/order-list.jsp</file>
-            <file>file:/C:/Users/Prio/Documents/NetBeansProjects/Spinocity/web/views/registration.jsp</file>
-            <file>file:/C:/Users/Prio/Documents/NetBeansProjects/Spinocity/src/java/Servlet/RegisterServlet.java</file>
-            <file>file:/C:/Users/Prio/Documents/NetBeansProjects/Spinocity/web/views/login.jsp</file>
+            <file>file:/C:/Users/Prio/Documents/NetBeansProjects/Spinocity/src/java/Servlet/CreateOrderServlet.java</file>
         </group>
     </open-files>
 </project-private>

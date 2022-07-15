@@ -20,7 +20,7 @@
     </head>
     
     <body class="d-flex flex-column h-100">
-            <jsp:include page='layouts/navbar.jsp'></jsp:include>
+            <jsp:include page='layouts/navbarreglog.jsp'></jsp:include>
             <!-- Begin page content -->
             <main class="flex-shrink-0">
                 <div class="container">

@@ -85,8 +85,12 @@
                                   onsubmit="return confirm('Are you sure want to delete the data?')"
                             >
                                 <a href="editalbum?id_album=<%= rs.getString("id_album") %>" class="btn btn-sm btn-info">Edit</a>
+                                
                                 <input type="hidden" name="id_album" value="<%= rs.getString("id_album")%>" />
                                 <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                                
+                                <input type="hidden" name="id_album" value="<%= rs.getString("id_album")%>" />
+                                <a href="createorder?id_album=<%= rs.getString("id_album") %>" class="btn btn-sm btn-success">Order</a>
                             </form>
                       </td>
                     </tr>
